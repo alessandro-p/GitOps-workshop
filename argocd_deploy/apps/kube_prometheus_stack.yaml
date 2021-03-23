@@ -12,7 +12,7 @@ spec:
     repoURL: https://github.com/alessandro-p/GitOps-workshop.git
     targetRevision: HEAD
     path: app_kube-prometheus-stack
-    helm:
+    helm: # I want to use helm to create the application
       valueFiles:
         - values.yaml
   destination:
